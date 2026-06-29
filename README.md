@@ -209,6 +209,11 @@ NAB-Anomaly-Detection-System/
 ├── E2C_Activity_GRU.ipynb          ← Main notebook (EDA + model + results)
 ├── README.md
 │
+├── frontend/                       ← Streamlit app (deployed on Streamlit Cloud)
+│   ├── app.py                      ← Main Streamlit frontend
+│   ├── nab_dashboard.zip           ← Bundled dashboard assets
+│   └── requirements.txt            ← Frontend dependencies
+│
 ├── data/
 │   └── realAWSCloudwatch/
 │       ├── ec2_network_in_5abac7.csv
@@ -220,5 +225,6 @@ NAB-Anomaly-Detection-System/
     ├── results_*.csv               ← Per-point anomaly labels
     └── gru_cross_metric_comparison.png
 ```
+
 
 ---
